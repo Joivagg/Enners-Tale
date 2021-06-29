@@ -19,6 +19,7 @@ public class EnnerControl : MonoBehaviour
     private Vector3 change;
     private Animator animator;
     public FloatValue currentHealth;
+    public FloatValue initialHealth;
     public Signals playerHealthSignal;
     public VectorValue startingPosition;
     public Inventory playerInventory;
@@ -36,6 +37,7 @@ public class EnnerControl : MonoBehaviour
         animator.SetFloat("movX", 0);
         animator.SetFloat("movY", -1);
         transform.position = startingPosition.initialValue;
+        currentHealth = initialHealth;
     }
 
     private void Update()

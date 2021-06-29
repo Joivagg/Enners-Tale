@@ -8,6 +8,7 @@ public class Inventory : ScriptableObject
     public Item currentItem;
     public List<Item> items = new List<Item>();
     public int numberOfKeys;
+    public int numberOfKeys2;
     public int coins;
     public int achievements;
 
@@ -17,6 +18,10 @@ public class Inventory : ScriptableObject
         if (itemToAdd.isKey)
         {
             numberOfKeys++;
+        }
+        if (itemToAdd.isKey2)
+        {
+            numberOfKeys2++;
         }
         else
         {

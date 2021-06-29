@@ -2,17 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum DoorType
+public enum DoorType2
 {
     key,
     enemy,
     button
 }
 
-public class Door : Interactable
+public class CaveDoor : Interactable
 {
     [Header("Door Variables")]
-    public DoorType thisDoorType;
+    public DoorType2 thisDoorType;
     public bool open = false;
     public Inventory playerInventory;
     public SpriteRenderer doorSprite;
@@ -24,10 +24,10 @@ public class Door : Interactable
     {
         if (Input.GetButtonDown("interact"))
         {
-            if (playerInRange && thisDoorType == DoorType.key)
+            if (playerInRange && thisDoorType == DoorType2.key)
             {
                 // Does the player have a key?
-                if(playerInventory.numberOfKeys > 0)
+                if (playerInventory.numberOfKeys2 > 0)
                 {
                     // Remove a player key
                     // playerInventory.numberOfKeys--;
@@ -57,10 +57,10 @@ public class Door : Interactable
 
     public void OpenDoor()
     {
-        if (playerInRange && thisDoorType == DoorType.key)
+        if (playerInRange && thisDoorType == DoorType2.key)
         {
             // Does the player have a key?
-            if (playerInventory.numberOfKeys > 0)
+            if (playerInventory.numberOfKeys2 > 0)
             {
                 // Remove a player key
                 // playerInventory.numberOfKeys--;
@@ -70,3 +70,4 @@ public class Door : Interactable
         }
     }
 }
+
