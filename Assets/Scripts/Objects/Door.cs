@@ -17,8 +17,6 @@ public class Door : Interactable
     public Inventory playerInventory;
     public SpriteRenderer doorSprite;
     public BoxCollider2D physicsCollider;
-    public GameObject KeySprite;
-    public GameObject Cloud;
 
     public void Update()
     {
@@ -46,13 +44,36 @@ public class Door : Interactable
         open = true;
         // Turn off the door's box collider
         physicsCollider.enabled = false;
-        KeySprite.SetActive(false);
-        Cloud.SetActive(false);
+        this.gameObject.SetActive(false);
+    }
+
+    protected override void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enner") && !other.isTrigger && thisDoorType == DoorType.key)
+        {
+            context.Raise();
+            playerInRange = true;
+        }
+    }
+
+    protected override void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Enner") && !other.isTrigger && thisDoorType == DoorType.key)
+        {
+            context.Raise();
+            playerInRange = false;
+        }
     }
 
     public void Close()
     {
-
+        // Turn off the door's sprite renderer
+        doorSprite.enabled = true;
+        // Set open to true
+        open = false;
+        // Turn off the door's box collider
+        physicsCollider.enabled = true;
+        this.gameObject.SetActive(true);
     }
 
     public void OpenDoor()

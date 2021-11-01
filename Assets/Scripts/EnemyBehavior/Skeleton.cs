@@ -8,7 +8,6 @@ public class Skeleton : Enemy
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
-    public Transform homePosition;
     public Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -78,7 +77,7 @@ public class Skeleton : Enemy
         }
     }
 
-    private void ChangeState(EnemyState newState)
+    protected void ChangeState(EnemyState newState)
     {
         if(currentState != newState)
         {

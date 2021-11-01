@@ -48,7 +48,6 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 5182c3a507dcd9e47b0fdf3756cffda0, type: 3}
     - {fileID: 2800000, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
     - {fileID: 2800000, guid: c913abb87ff57c4488462e240f447b03, type: 3}
-    totalSpriteSurfaceArea: 3279581
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -62,6 +61,8 @@ SpriteAtlas:
   - {fileID: 1460043806165005221, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: 5069650035751226587, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: -8663740905508841325, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
+  - {fileID: 7564501798177618812, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
+  - {fileID: -933708202724517508, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: 1753205982242350755, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: 8333231276030249781, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: 318953615281452700, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
@@ -71,6 +72,7 @@ SpriteAtlas:
   - {fileID: 8753186556605219898, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: 4455232240493665095, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: 4698315425400886581, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
+  - {fileID: -7302307326716131399, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: -9053378900703536071, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: 2002165265138813586, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
   - {fileID: 5197925540072060383, guid: a08f0a314844b3442b64f0b6ffb97d5f, type: 3}
@@ -211,6 +213,8 @@ SpriteAtlas:
   - Globe
   - Heart_Full
   - HealthHolder
+  - SwitchInactive
+  - StoneShot
   - Pot_1
   - Pot_3
   - Pot_2
@@ -220,6 +224,7 @@ SpriteAtlas:
   - Death_10
   - Heart_OneQuart
   - Object_Container
+  - SwitchActive
   - Heart_Half
   - HeartPool_2
   - HeartPool_3

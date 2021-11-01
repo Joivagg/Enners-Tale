@@ -26,6 +26,9 @@ public class EnnerControl : MonoBehaviour
     public SpriteRenderer receivedItemSprite;
     public Signals playerHit;
     public Joystick joystick;
+    [SerializeField]
+    private AudioClip swordSound;
+    private AudioSource attackSound;
     public float runSpeedVertical = 0;
     public float runSpeedHorizontal = 0;
 
@@ -38,6 +41,15 @@ public class EnnerControl : MonoBehaviour
         animator.SetFloat("movY", -1);
         transform.position = startingPosition.initialValue;
         currentHealth = initialHealth;
+        attackSound = GetComponent<AudioSource>();
+        if (attackSound == null)
+        {
+            Debug.LogError("The AudioSource in the player is NULL!");
+        }
+        else
+        {
+            attackSound.clip = swordSound;
+        }
     }
 
     private void Update()
@@ -69,6 +81,7 @@ public class EnnerControl : MonoBehaviour
     private IEnumerator AttackCO()
     {
         animator.SetBool("attacking", true);
+        attackSound.Play();
         currentState = PlayerState.attack;
         yield return null;
         animator.SetBool("attacking", false);
