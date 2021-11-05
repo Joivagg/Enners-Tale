@@ -12,7 +12,7 @@ public class PatrolSkeleton : Skeleton
     protected override void CheckDistance()
     {
         float targetDistance = Vector3.Distance(target.position, transform.position);
-        if (targetDistance <= chaseRadius && targetDistance > attackRadius)
+        if (targetDistance <= chaseRadius && targetDistance > attackRadius && boundary.bounds.Contains(target.transform.position))
         {
             if (currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger)
             {
@@ -23,7 +23,7 @@ public class PatrolSkeleton : Skeleton
                 anim.SetBool("wakeUp", true);
             }
         }
-        else if (targetDistance > chaseRadius)
+        else
         {
             if(Vector3.Distance(transform.position, path[currentPoint].position) > roundingDistance)
             {

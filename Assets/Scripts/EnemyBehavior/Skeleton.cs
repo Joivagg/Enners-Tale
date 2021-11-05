@@ -5,6 +5,7 @@ using UnityEngine;
 public class Skeleton : Enemy
 {
     public Rigidbody2D myRigidbody;
+    public Collider2D boundary;
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
@@ -25,10 +26,16 @@ public class Skeleton : Enemy
         CheckDistance();
     }
 
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        ChangeState(EnemyState.idle);
+    }
+
     protected virtual void CheckDistance()
     {
         float targetDistance = Vector3.Distance(target.position, transform.position);
-        if (targetDistance <= chaseRadius && targetDistance > attackRadius)
+        if (targetDistance <= chaseRadius && targetDistance > attackRadius && boundary.bounds.Contains(target.transform.position))
         {
             if (currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger)
             {
@@ -42,6 +49,7 @@ public class Skeleton : Enemy
         else if (targetDistance > chaseRadius)
         {
             anim.SetBool("wakeUp", false);
+            ChangeState(EnemyState.idle);
         }
     }
 

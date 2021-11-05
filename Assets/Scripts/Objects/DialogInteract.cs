@@ -21,11 +21,13 @@ public class DialogInteract : Interactable
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                Time.timeScale = 1f;
             }
             else
             {
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
+                Time.timeScale = 0f;
             }
         }
     }
@@ -46,11 +48,13 @@ public class DialogInteract : Interactable
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                Time.timeScale = 1f;
             }
             else
             {
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
+                Time.timeScale = 0f;
             }
         }
     }
@@ -62,11 +66,13 @@ public class DialogInteract : Interactable
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                Time.timeScale = 1f;
             }
             else
             {
                 dialogBox.SetActive(true);
                 dialogText.text = dialog;
+                Time.timeScale = 0f;
             }
         }
     }

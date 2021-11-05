@@ -11,14 +11,11 @@ public class Projectile : MonoBehaviour
     [Header("Lifetime")]
     public float lifetime;
     private float lifetimeSeconds;
-    private Animator anim;
     public Rigidbody2D myRigidbody;
-    private Vector2 setVector;
 
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
         lifetimeSeconds = lifetime;
         
     }
@@ -43,6 +40,10 @@ public class Projectile : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.isTrigger)
+        {
+            Destroy(this.gameObject);
+        }
+        if (other.isTrigger && other.CompareTag("Enner"))
         {
             Destroy(this.gameObject);
         }

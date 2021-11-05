@@ -22,7 +22,7 @@ public class Archer : Skeleton
     protected override void CheckDistance()
     {
         float targetDistance = Vector3.Distance(target.position, transform.position);
-        if (targetDistance <= chaseRadius && targetDistance > attackRadius)
+        if (boundary.bounds.Contains(target.transform.position))
         {
             if (currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger)
             {

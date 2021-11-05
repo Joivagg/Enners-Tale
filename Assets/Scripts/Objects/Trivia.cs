@@ -36,11 +36,17 @@ public class Trivia : Interactable
             if (Interfaz.activeInHierarchy)
             {
                 Interfaz.SetActive(false);
+                Time.timeScale = 1f;
             }
             else
             {
                 Interfaz.SetActive(true);
                 Pregunta.text = dialog;
+                Opcion1.text = dialogop1;
+                Opcion2.text = dialogop2;
+                Opcion3.text = dialogop3;
+                Opcion4.text = dialogop4;
+                Time.timeScale = 0f;
             }
         }
     }
@@ -61,6 +67,7 @@ public class Trivia : Interactable
             if (Interfaz.activeInHierarchy)
             {
                 Interfaz.SetActive(false);
+                Time.timeScale = 1f;
             }
             else
             {
@@ -70,6 +77,7 @@ public class Trivia : Interactable
                 Opcion2.text = dialogop2;
                 Opcion3.text = dialogop3;
                 Opcion4.text = dialogop4;
+                Time.timeScale = 0f;
             }
         }
     }
@@ -81,6 +89,7 @@ public class Trivia : Interactable
             if (Interfaz.activeInHierarchy)
             {
                 Interfaz.SetActive(false);
+                Time.timeScale = 1f;
             }
             else
             {
@@ -90,6 +99,7 @@ public class Trivia : Interactable
                 Opcion2.text = dialogop2;
                 Opcion3.text = dialogop3;
                 Opcion4.text = dialogop4;
+                Time.timeScale = 0f;
             }
         }
     }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class SkeletonGe : Enemy
 {
     public Rigidbody2D myRigidbody;
+    public Collider2D boundary;
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
@@ -28,7 +29,7 @@ public class SkeletonGe : Enemy
     protected virtual void CheckDistance()
     {
         float targetDistance = Vector3.Distance(target.position, transform.position);
-        if (targetDistance <= chaseRadius && targetDistance > attackRadius)
+        if (targetDistance <= chaseRadius && targetDistance > attackRadius && boundary.bounds.Contains(target.transform.position))
         {
             if (currentState == EnemyState.idle || currentState == EnemyState.walk && currentState != EnemyState.stagger)
             {

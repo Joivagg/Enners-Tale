@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Title Screen.unity
+    path: Assets/Scenes/TitleScreen.unity
     guid: 276b44b8d0444334daf6c073065580b5
   - enabled: 1
-    path: Assets/Scenes/Overworld.unity
+    path: Assets/Scenes/OverworldL1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/AcademyRuins.unity
+    path: Assets/Scenes/AcademyRuinsL1.unity
     guid: d4281d84437c8534ab1674e70a97c1c8
+  - enabled: 1
+    path: Assets/Scenes/WaterDungeonL1.unity
+    guid: 4d2ac0c251cfacb458794b903fcf7b12
   m_configObjects: {}

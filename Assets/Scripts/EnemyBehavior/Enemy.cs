@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
-    private Vector2 homePosition;
+    protected Vector2 homePosition;
 
     [Header("Death Effects")]
     public GameObject deathEffect;
@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
         homePosition = transform.position;
     }
 
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
         transform.position = homePosition;
         health = maxHealth.initialValue;

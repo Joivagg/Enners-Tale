@@ -23,6 +23,7 @@ public class EnnerControl : MonoBehaviour
     public Signals playerHealthSignal;
     public VectorValue startingPosition;
     public Inventory playerInventory;
+    public Achievements playerAccess;
     public SpriteRenderer receivedItemSprite;
     public Signals playerHit;
     public Joystick joystick;
@@ -68,13 +69,23 @@ public class EnnerControl : MonoBehaviour
     private void FixedUpdate()
     {
         change = Vector3.zero;
-        change.x = Input.GetAxisRaw("Horizontal");
-        change.y = Input.GetAxisRaw("Vertical");
-        change.x = joystick.Horizontal * runSpeedHorizontal;
-        change.y = joystick.Vertical * runSpeedVertical;
-        if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+        if (Input.GetAxisRaw("Horizontal") == 0 && Input.GetAxisRaw("Vertical") == 0)
         {
-            UpdateAnimationAndMove();
+            change.x = joystick.Horizontal * runSpeedHorizontal;
+            change.y = joystick.Vertical * runSpeedVertical;
+            if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+            {
+                UpdateAnimationAndMove();
+            }
+        }
+        else
+        {
+            change.x = Input.GetAxisRaw("Horizontal");
+            change.y = Input.GetAxisRaw("Vertical");
+            if (currentState == PlayerState.walk || currentState == PlayerState.idle)
+            {
+                UpdateAnimationAndMove();
+            }
         }
     }
 

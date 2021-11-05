@@ -9,8 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e78887cb576ee5d48b957f7a7c0876d5, type: 3}
-  m_Name: PlayerPositionTemp
+  m_Script: {fileID: 11500000, guid: 4c4628d575b2b0a48b6b2ecebffedeb4, type: 3}
+  m_Name: PlayerAccess
   m_EditorClassIdentifier: 
-  initialValue: {x: 14, y: -80}
-  defaultValue: {x: 14, y: -80}
+  checkAcademyApproval: 0
+  checkWaterSeal: 0
+  checkFireSeal: 0
+  checkPoisonSeal: 0
+  checkCastleMedal: 0
