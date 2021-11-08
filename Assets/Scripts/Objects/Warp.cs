@@ -41,12 +41,12 @@ public class Warp : MonoBehaviour
 
             if (needText)
             {
-                StartCoroutine(placeNameCo());
+                StartCoroutine(PlaceNameCo());
             }
         }
     }
 
-    private IEnumerator placeNameCo()
+    private IEnumerator PlaceNameCo()
     {
         text.SetActive(true);
         placeText.text = placeName;

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006b062b36371bc439b7e464af666689, type: 3}
+  m_Name: PoisonL1
+  m_EditorClassIdentifier: 
+  questionPool:
+  - {fileID: 11400000, guid: 90b077328608fff4a8012db2cd04165a, type: 2}
+  - {fileID: 11400000, guid: 02a9c964b27f6f141918b8515d07d715, type: 2}
+  - {fileID: 11400000, guid: 135d30e989e2f1f4cae3c8bc19a0d417, type: 2}
+  - {fileID: 11400000, guid: 69d1b7e2001e4b04a9a95b1e10787e33, type: 2}
+  - {fileID: 11400000, guid: 36e9efc8a7d2a5147bb87e02e2589fcc, type: 2}
+  - {fileID: 11400000, guid: fc687c15e5cfdf34ea27565b397d265e, type: 2}
+  - {fileID: 11400000, guid: 68033043396bbde45837cacdb0f6c49c, type: 2}
+  - {fileID: 11400000, guid: c40d772db8d7d2b499d1d07dcd4e2392, type: 2}
+  - {fileID: 11400000, guid: 3a9e5cb5aee82c7439d89e585455126d, type: 2}
+  - {fileID: 11400000, guid: 3060b476af420f34eb246793f878b9ad, type: 2}
+  - {fileID: 11400000, guid: c2e9eec66c8a6b749811894ce49a2e5d, type: 2}
+  - {fileID: 11400000, guid: 2ee603eda175e8545919cb133e93d86b, type: 2}
+  - {fileID: 11400000, guid: bb189142366a8cb4789bf2c45112fe7b, type: 2}
+  - {fileID: 11400000, guid: dba32c79a01572848b8e447d8527b3f0, type: 2}
+  - {fileID: 11400000, guid: e9114e3641d5a1d4d8e20df416e969f5, type: 2}
+  - {fileID: 11400000, guid: a991bfd331b3aef41be9433bc11f05b6, type: 2}
+  - {fileID: 11400000, guid: eec1a7a5747861a4caab52e0c693692b, type: 2}
+  - {fileID: 11400000, guid: 379c3766fc4002543b37b4831fa2d5d6, type: 2}
+  - {fileID: 11400000, guid: 81b340a6f63669f46ae617081e1e03ef, type: 2}
+  - {fileID: 11400000, guid: b1146d42d938f1643b5c8625fc23c4b0, type: 2}

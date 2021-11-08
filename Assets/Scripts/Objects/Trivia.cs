@@ -5,27 +5,52 @@ using UnityEngine.UI;
 
 public class Trivia : Interactable
 {
+    
+    [Header("Text Content")]
+    public string dialog;
+    public string dialogop1;
+    public string dialogop2;
+    public string dialogop3;
+    public string dialogop4;
+
+    [Header("UI Elements")]
     public GameObject Interfaz;
     public GameObject QuestionPanel;
     public GameObject MainCharacter;
+
+    [Header("Text Fields")]
     public Text Pregunta;
-    public string dialog;
     public Text Opcion1;
-    public string dialogop1;
     public Text Opcion2;
-    public string dialogop2;
     public Text Opcion3;
-    public string dialogop3;
     public Text Opcion4;
-    public string dialogop4;
+
+    [Header("Door Properties")]
     public SpriteRenderer doorSprite;
     public BoxCollider2D physicsCollider;
     private bool isActive;
+
+    [Header("Player Health")]
     public FloatValue currentHealth;
     public Signals playerHealthSignal;
 
+    public bool checkPlateActivation;
+    public BoolValue storedValue;
+    public Sprite activeSprite;
+    private SpriteRenderer plateSprite;
+    public Door targetDoor;
+
+    public Button buttonOne;
+
     void Start()
     {
+        
+        plateSprite = GetComponent<SpriteRenderer>();
+        checkPlateActivation = storedValue.RuntimeValue;
+        if (checkPlateActivation)
+        {
+            ActivatePlate();
+        }
         isActive = true;
     }
 
@@ -48,15 +73,6 @@ public class Trivia : Interactable
                 Opcion4.text = dialogop4;
                 Time.timeScale = 0f;
             }
-        }
-    }
-
-    protected override void OnTriggerExit2D(Collider2D other)
-    {
-        if (other.CompareTag("Enner") && !other.isTrigger)
-        {
-            base.OnTriggerExit2D(other);
-            Interfaz.SetActive(false);
         }
     }
 
@@ -103,6 +119,24 @@ public class Trivia : Interactable
             }
         }
     }
+
+    public void ActivatePlate()
+    {
+        checkPlateActivation = true;
+        storedValue.RuntimeValue = checkPlateActivation;
+        targetDoor.Open();
+        plateSprite.sprite = activeSprite;
+    }
+
+    protected override void OnTriggerEnter2D(Collider2D other)
+    {
+        // Is it the Player?
+        if (other.CompareTag("Enner") && !other.isTrigger)
+        {
+            Interfaz.SetActive(true);
+        }
+    }
+
     public void Open()
     {
         // Turn off the door's sprite renderer

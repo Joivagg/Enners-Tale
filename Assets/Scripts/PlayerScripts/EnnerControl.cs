@@ -32,6 +32,7 @@ public class EnnerControl : MonoBehaviour
     private AudioSource attackSound;
     public float runSpeedVertical = 0;
     public float runSpeedHorizontal = 0;
+    public GameObject retryPanel;
 
     private void Start()
     {
@@ -161,6 +162,8 @@ public class EnnerControl : MonoBehaviour
         else
         {
             this.gameObject.SetActive(false);
+            Time.timeScale = 0;
+            retryPanel.SetActive(true);
         }
     }
 

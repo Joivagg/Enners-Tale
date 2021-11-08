@@ -12,8 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4628d575b2b0a48b6b2ecebffedeb4, type: 3}
   m_Name: PlayerAccess
   m_EditorClassIdentifier: 
-  checkAcademyApproval: 0
-  checkWaterSeal: 0
-  checkFireSeal: 0
-  checkPoisonSeal: 0
-  checkCastleMedal: 0
+  checkAcademyApproval: 1
+  checkWaterSeal: 1
+  checkFireSeal: 1
+  checkPoisonSeal: 1
+  checkCastleMedal: 1
+  englishLevel1: 1
+  englishLevel2: 0
+  englishLevel3: 0
+  englishLevel4: 0

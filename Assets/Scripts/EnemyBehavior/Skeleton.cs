@@ -11,7 +11,7 @@ public class Skeleton : Enemy
     public float attackRadius;
     public Animator anim;
     // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
         currentState = EnemyState.idle;
         myRigidbody = GetComponent<Rigidbody2D>();

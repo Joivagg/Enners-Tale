@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 006b062b36371bc439b7e464af666689, type: 3}
+  m_Name: CastleL1
+  m_EditorClassIdentifier: 
+  questionPool:
+  - {fileID: 11400000, guid: 30893a30098312449a5b4c5763e5e3be, type: 2}
+  - {fileID: 11400000, guid: c451efa871dc4214193db95037b4e91a, type: 2}
+  - {fileID: 11400000, guid: 0429f95319a43bc47834b3e8e6939e96, type: 2}
+  - {fileID: 11400000, guid: 768972c267dfdf64a8c4d13cb69f439b, type: 2}
+  - {fileID: 11400000, guid: afccea58dd2b264499c058730204323d, type: 2}
+  - {fileID: 11400000, guid: f30e5b6371c09ff49b2971eba501c488, type: 2}
+  - {fileID: 11400000, guid: 61fe49fec43147443aba826751a74d6f, type: 2}
+  - {fileID: 11400000, guid: c839464032f42804ebfbd361fb4d1069, type: 2}
+  - {fileID: 11400000, guid: c063aaa4d56d60a49999ec067eed34ab, type: 2}
+  - {fileID: 11400000, guid: 78f5b7fa537c78d4a94eed7f2fadb9e6, type: 2}
+  - {fileID: 11400000, guid: c9a6f13758c743b4cac0bf897075530f, type: 2}
+  - {fileID: 11400000, guid: 5c4fd05b7b239114b8b89a828c103bc1, type: 2}
+  - {fileID: 11400000, guid: 29cf0dbb3ba480d499fb55d6a71eca28, type: 2}
+  - {fileID: 11400000, guid: 5adfdad3b518bff4ebb0033e65f6eca4, type: 2}
+  - {fileID: 11400000, guid: 43f2c1d61d5798d40bb1b3e4da9c08e3, type: 2}
+  - {fileID: 11400000, guid: 4919bff19db4cdd4581f90ced8f46e5a, type: 2}
+  - {fileID: 11400000, guid: 94110f5a8f99eb048824ccd3539103bb, type: 2}
+  - {fileID: 11400000, guid: 85cc37b5bdaf726458a57746519f9d9d, type: 2}
+  - {fileID: 11400000, guid: dbc411880c691c541ba8ec5cdb82f380, type: 2}
+  - {fileID: 11400000, guid: 8ced47f2304358149beda1a0bb413ca4, type: 2}

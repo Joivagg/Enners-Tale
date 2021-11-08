@@ -9,6 +9,23 @@ public class PatrolSkeleton : Skeleton
     public Transform currentGoal;
     public float roundingDistance;
 
+    private void Start()
+    {
+        currentState = EnemyState.walk;
+        myRigidbody = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
+        target = GameObject.FindWithTag("Enner").transform;
+        anim.SetBool("wakeUp", true);
+    }
+
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        ChangeState(EnemyState.walk);
+        currentPoint = 0;
+        currentGoal = path[0];
+    }
+
     protected override void CheckDistance()
     {
         float targetDistance = Vector3.Distance(target.position, transform.position);
