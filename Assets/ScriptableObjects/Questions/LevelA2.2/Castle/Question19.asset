@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question19
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Traduce: "Hace mucho tiempo"'
+  option1: A long time ago
+  option2: A little time ago
+  option3: A huge time ago
+  option4: A short time ago
+  selectCorrect: 0

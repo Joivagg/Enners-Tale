@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question16
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If I ____ clean the garage, my father ____ give me any money
+  option1: don't / won't
+  option2: am / will
+  option3: won't / doesn't
+  option4: am not / isn't
+  selectCorrect: 0

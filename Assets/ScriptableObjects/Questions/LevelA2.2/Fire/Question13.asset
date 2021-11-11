@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question13
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: This is _____ day of the year
+  option1: the shortest
+  option2: shortest
+  option3: the short
+  option4: more shorter
+  selectCorrect: 0

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question20
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If people see an accident, they _____
+  option1: call an ambulance
+  option2: run away quickly
+  option3: phone their parents
+  option4: telephone the post office
+  selectCorrect: 0

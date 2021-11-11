@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question16
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: He asked me to give his book back but I _____ it
+  option1: had lost
+  option2: was lost
+  option3: have lost
+  option4: lost
+  selectCorrect: 0

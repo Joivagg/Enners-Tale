@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question7
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Maria apologized for not coming. She said she had been busy _____
+  option1: that day
+  option2: the following day
+  option3: previous day
+  option4: next week
+  selectCorrect: 0

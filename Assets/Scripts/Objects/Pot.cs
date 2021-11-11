@@ -5,25 +5,33 @@ using UnityEngine;
 public class Pot : MonoBehaviour
 {
     private Animator anim;
+    [SerializeField]
+    private AudioClip breakSound;
+    private AudioSource potSound;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
+        potSound = GetComponent<AudioSource>();
+        if (potSound == null)
+        {
+            Debug.LogError("The AudioSource in the player is NULL!");
+        }
+        else
+        {
+            potSound.clip = breakSound;
+        }
     }
 
     public void Smash()
     {
         anim.SetBool("smash", true);
-        StartCoroutine(breakCo());
+        potSound.Play();
+        StartCoroutine(BreakCo());
+        
     }
 
-    IEnumerator breakCo()
+    IEnumerator BreakCo()
     {
         yield return new WaitForSeconds(.3f);
         this.gameObject.SetActive(false);

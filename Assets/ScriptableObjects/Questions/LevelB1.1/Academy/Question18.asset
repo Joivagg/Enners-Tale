@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question18
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Is your car _____ your sister's car?
+  option1: newer than
+  option2: as new as
+  option3: new than
+  option4: as newer as
+  selectCorrect: 0

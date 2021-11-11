@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: She _____ all over the world if she _____ rich
+  option1: would travel / were
+  option2: travels / were be
+  option3: travelled / would be
+  option4: would travel / would be
+  selectCorrect: 0

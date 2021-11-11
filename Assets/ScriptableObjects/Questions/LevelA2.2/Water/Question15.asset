@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question15
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Traduce: "Gran Muralla China"'
+  option1: Great Wall of China
+  option2: Great Chinese Wall
+  option3: Great Road of China
+  option4: Great Chinese Road
+  selectCorrect: 0

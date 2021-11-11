@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question2
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If he calls me lazy again, I _____ help him when he is in trouble
+  option1: won't
+  option2: am
+  option3: don't
+  option4: can't
+  selectCorrect: 0

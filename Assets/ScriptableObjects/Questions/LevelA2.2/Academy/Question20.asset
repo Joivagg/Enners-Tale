@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question20
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: I _____ drink juice with him (-)
+  option1: am not going to
+  option2: won't be
+  option3: am not going to
+  option4: won't going to
+  selectCorrect: 0

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question9
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Change to reported speech: "I''ve done it"'
+  option1: I told you that I had done it
+  option2: I told you that I did it
+  option3: I told that I had done it
+  option4: I told you that I did it
+  selectCorrect: 0

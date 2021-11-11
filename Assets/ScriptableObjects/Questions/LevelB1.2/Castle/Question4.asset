@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question4
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Change to direct speech: "She said she was going to be late"'
+  option1: I'm going to be late
+  option2: I was going to be late
+  option3: I was late
+  option4: I could be late
+  selectCorrect: 0

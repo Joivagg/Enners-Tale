@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question5
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Did you know he has been teaching German _____ fifteen years?
+  option1: for
+  option2: since
+  option3: after
+  option4: before
+  selectCorrect: 0

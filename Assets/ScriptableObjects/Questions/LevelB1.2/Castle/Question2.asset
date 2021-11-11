@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question2
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Change to reported speech: "There was an accident outside the supermarket"'
+  option1: She said there had been an accident outside the supermarket
+  option2: She said there has been an accident outside the supermarket
+  option3: She said there were an accident outside the supermarket
+  option4: She said there was being an accident outside the supermarket
+  selectCorrect: 0

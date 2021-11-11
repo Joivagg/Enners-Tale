@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question2
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: We can go to the amusement park with you, _____?
+  option1: can't we
+  option2: don't we
+  option3: can we
+  option4: aren't we
+  selectCorrect: 0

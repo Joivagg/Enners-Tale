@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question3
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: When she works early, _____
+  option1: she wakes uo early
+  option2: she wake up early
+  option3: she woke up early
+  option4: she will wake up early
+  selectCorrect: 0

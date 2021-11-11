@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question9
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: My brother _____ a sports car if he _____ the money
+  option1: would buy / had
+  option2: would bought / have
+  option3: bought / would had
+  option4: bought / would have
+  selectCorrect: 0

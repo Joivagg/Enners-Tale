@@ -33,6 +33,8 @@ public class EnnerControl : MonoBehaviour
     public float runSpeedVertical = 0;
     public float runSpeedHorizontal = 0;
     public GameObject retryPanel;
+    public GameObject uiPanel;
+    public GameObject container;
 
     private void Start()
     {
@@ -162,8 +164,10 @@ public class EnnerControl : MonoBehaviour
         else
         {
             this.gameObject.SetActive(false);
-            Time.timeScale = 0;
             retryPanel.SetActive(true);
+            uiPanel.SetActive(true);
+            container.GetComponent<PauseMenu>().enabled = false;
+            Time.timeScale = 0;
         }
     }
 

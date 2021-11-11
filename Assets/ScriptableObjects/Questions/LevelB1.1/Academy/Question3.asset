@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question3
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: David's hair is very short. He _____ his hair off
+  option1: has cut
+  option2: have cut
+  option3: have cutted
+  option4: has cutted
+  selectCorrect: 0

@@ -17,9 +17,9 @@ public class Plate : MonoBehaviour
 
     [Header("Door Info")]
     [Space]
-    private bool isPlateActive;
     [SerializeField]
     private BoolValue storedValue;
+    private bool isPlateActive;
     [SerializeField]
     private Sprite plateActivated;
     [SerializeField]
@@ -30,6 +30,8 @@ public class Plate : MonoBehaviour
 
     [Header("UI Elements")]
     [Space]
+    [SerializeField]
+    private GameObject uiPanel;
     [SerializeField]
     private GameObject questionPanel;
     [SerializeField]
@@ -70,15 +72,32 @@ public class Plate : MonoBehaviour
     [Space]
     [SerializeField]
     private FloatValue currentHealth;
+    public Signals playerHealthSignal;
     [SerializeField]
-    private Signals playerHealthSignal;
+    private GameObject heartsManager;
     [SerializeField]
     private GameObject player;
+    [Space]
+
+    [Header("Canvas")]
+    [Space]
+    [SerializeField]
+    private GameObject container;
+    [Space]
+
+    [Header("SoundConfig")]
+    [Space]
+    [SerializeField]
+    private AudioClip rightSound;
+    [SerializeField]
+    private AudioClip wrongSound;
+    private AudioSource sourceSound;
 
     public void InitPlates()
     {
         formatQuestion = Instantiate(questionGenerator.GetComponent<QuestionGenerator>().dungeonQuestions[questionNumber - 1]);
         plateImage = GetComponent<SpriteRenderer>();
+        sourceSound = GetComponent<AudioSource>();
         isPlateActive = storedValue.RuntimeValue;
         if (isPlateActive)
         {
@@ -172,6 +191,8 @@ public class Plate : MonoBehaviour
         isPlateActive = false;
         storedValue.RuntimeValue = isPlateActive;
         plateImage.sprite = plateActivated;
+        sourceSound.clip = rightSound;
+        sourceSound.Play();
         if (isOptionOne)
         {
             optionOne.GetComponent<Image>().color = new Color32(0, 127, 0, 255);
@@ -193,7 +214,9 @@ public class Plate : MonoBehaviour
     private void WrongAnswer()
     {
         currentHealth.RuntimeValue -= 1;
-        playerHealthSignal.Raise();
+        heartsManager.GetComponent<HeartManager>().UpdateHearts();
+        sourceSound.clip = wrongSound;
+        sourceSound.Play();
         if (currentHealth.RuntimeValue == 0)
         {
             player.SetActive(false);
@@ -227,13 +250,14 @@ public class Plate : MonoBehaviour
         if (isQuestionPanelActive)
         {
             questionPanel.SetActive(true);
+            uiPanel.SetActive(false);
+            container.GetComponent<PauseMenu>().enabled = false;
             Time.timeScale = 0f;
         }
         else
         {
             Time.timeScale = 0.1f;
-            StartCoroutine(WaitCO(1f));
-            Time.timeScale = 1f;
+            StartCoroutine(WaitCO(0.3f));
         }
     }
 
@@ -241,5 +265,8 @@ public class Plate : MonoBehaviour
     {
         yield return new WaitForSeconds(waitTime);
         questionPanel.SetActive(false);
+        container.GetComponent<PauseMenu>().enabled = true;
+        uiPanel.SetActive(true);
+        Time.timeScale = 1f;
     }
 }

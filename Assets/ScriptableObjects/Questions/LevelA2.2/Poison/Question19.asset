@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question19
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Traduce: "Enfermera"'
+  option1: Nurse
+  option2: Doctor
+  option3: Surgery
+  option4: Nun
+  selectCorrect: 0

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question5
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Change to direct speech: "He said he would help me"'
+  option1: I will help you
+  option2: I can help you
+  option3: I have helped you
+  option4: I was helping you
+  selectCorrect: 0

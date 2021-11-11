@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question12
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Mexico was the place we went for that rainy vacation, _____?
+  option1: wasn't it
+  option2: isn't it
+  option3: isn't there
+  option4: wasn't there
+  selectCorrect: 0

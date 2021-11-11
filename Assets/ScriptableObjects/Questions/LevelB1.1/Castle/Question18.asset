@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question18
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: A plane to New York _____ yesterday
+  option1: was hijacked
+  option2: was hijack
+  option3: were hijacked
+  option4: were hijack
+  selectCorrect: 0

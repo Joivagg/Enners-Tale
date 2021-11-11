@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question18
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: We _____ the letter two weeks ago. If you still _____, please inform
+    us
+  option1: sent / haven't received
+  option2: have sent / haven't received
+  option3: sent / didn't receive
+  option4: have sent / didn't receive
+  selectCorrect: 0

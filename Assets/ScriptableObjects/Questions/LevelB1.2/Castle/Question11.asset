@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question11
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Change to reported speech: "I can''t chat because I''m working"'
+  option1: George said that he couldn't chat because he was working
+  option2: George said that he can't chat because he was working
+  option3: George said that he can't chat because he is working
+  option4: George said that he couldn't chat because he is working
+  selectCorrect: 0

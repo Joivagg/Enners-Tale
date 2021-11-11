@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question20
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: _____ the new boy in our English class last week?
+  option1: Did you meet
+  option2: Have you meet
+  option3: Were you meeting
+  option4: Are you meet
+  selectCorrect: 0

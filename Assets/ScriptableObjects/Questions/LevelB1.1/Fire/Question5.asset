@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question5
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Most of the time we _____ in the museum
+  option1: were sitting
+  option2: was sitting
+  option3: sitting
+  option4: were sat
+  selectCorrect: 0

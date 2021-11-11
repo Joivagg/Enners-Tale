@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question13
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: My granny _____ my little sister for two days because my parents are
+    on holiday
+  option1: has been looking after
+  option2: has been looked after
+  option3: has looked after
+  option4: looks after
+  selectCorrect: 0

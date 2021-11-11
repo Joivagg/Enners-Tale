@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question9
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Does this computer work _____
+  option1: if you use batteries?
+  option2: if you would have used batteries?
+  option3: if you used batteries?
+  option4: if you will use batteries?
+  selectCorrect: 0

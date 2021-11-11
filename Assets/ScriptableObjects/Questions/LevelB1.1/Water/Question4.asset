@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question4
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: I'm tired because I _____ out
+  option1: have been working
+  option2: am been working
+  option3: have been worked
+  option4: am been worked
+  selectCorrect: 0

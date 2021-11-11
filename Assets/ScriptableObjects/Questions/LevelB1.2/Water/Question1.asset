@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question1
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If you eat fast food, _____
+  option1: you gain weight
+  option2: you gained weight
+  option3: you would have gained weight
+  option4: you will gain weight
+  selectCorrect: 0

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question13
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Laura's your best friend. You should come to her party, _____?
+  option1: shouldn't you
+  option2: isn't she
+  option3: should you
+  option4: is she
+  selectCorrect: 0

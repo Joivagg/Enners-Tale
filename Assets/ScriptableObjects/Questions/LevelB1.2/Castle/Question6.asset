@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question6
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: 'Change to direct speech: "Lisa said she didn''t have a map"'
+  option1: I have a map
+  option2: I had a map
+  option3: I'm going to have a map
+  option4: I will have a map
+  selectCorrect: 0

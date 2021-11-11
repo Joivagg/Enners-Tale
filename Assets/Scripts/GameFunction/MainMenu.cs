@@ -27,6 +27,10 @@ public class MainMenu : MonoBehaviour
     [SerializeField]
     private GameObject viewControls;
     [SerializeField]
+    private GameObject tactilInstructions;
+    [SerializeField]
+    private GameObject keysInstructions;
+    [SerializeField]
     private GameObject viewCredits;
 
     public void NewGame()
@@ -139,17 +143,40 @@ public class MainMenu : MonoBehaviour
         viewControls.SetActive(true);
     }
 
+    public void ShowKeysInput()
+    {
+        tactilInstructions.SetActive(false);
+        keysInstructions.SetActive(true);
+    }
+
+    public void ShowTouchInput()
+    {
+        keysInstructions.SetActive(false);
+        tactilInstructions.SetActive(true);
+    }
+
     public void ShowCredits()
     {
         mainMenu.SetActive(false);
         viewCredits.SetActive(true);
     }
 
+    public void TrueReset()
+    {
+        playerAchievements.englishLevel1 = false;
+        playerAchievements.englishLevel2 = false;
+        playerAchievements.englishLevel3 = false;
+        playerAchievements.englishLevel4 = false;
+        finalMessage.SetActive(false);
+        mainMenu.SetActive(true);
+    }    
+
     public void Return()
     {
         selectDifficulty.SetActive(false);
         viewControls.SetActive(false);
         viewCredits.SetActive(false);
+        finalMessage.SetActive(false);
         mainMenu.SetActive(true);
     }
 

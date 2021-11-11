@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question19
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: A lot of money _____ last night
+  option1: was robbed
+  option2: was robed
+  option3: were robbed
+  option4: were robed
+  selectCorrect: 0

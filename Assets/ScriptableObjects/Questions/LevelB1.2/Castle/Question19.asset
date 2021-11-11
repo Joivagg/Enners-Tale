@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question19
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: She starts studying English in the morning and doesn't stop _____ it's
+    time for lunch
+  option1: until
+  option2: since
+  option3: by the
+  option4: for
+  selectCorrect: 0

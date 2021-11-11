@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question3
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: He never goes to bed before ten o'clock, _____?
+  option1: does he
+  option2: doesn't he
+  option3: is he
+  option4: isn't he
+  selectCorrect: 0

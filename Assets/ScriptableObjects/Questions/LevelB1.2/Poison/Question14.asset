@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question14
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If you printed on both sides, you _____ paper
+  option1: would save
+  option2: would be save
+  option3: were saved
+  option4: saved
+  selectCorrect: 0

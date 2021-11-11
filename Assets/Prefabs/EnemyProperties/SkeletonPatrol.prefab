@@ -13,16 +13,17 @@ GameObject:
   - component: {fileID: 5695476165340169475}
   - component: {fileID: 5695476165340169487}
   - component: {fileID: 5695476165340169486}
-  - component: {fileID: 5695476165340169484}
   - component: {fileID: 5695476165340169485}
   - component: {fileID: 5695476165340169482}
+  - component: {fileID: 1424912907720449263}
+  - component: {fileID: 1694091995225204569}
   m_Layer: 8
   m_Name: SkeletonPatrol
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5695476165340169473
 Transform:
   m_ObjectHideFlags: 0
@@ -154,30 +155,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.0517559, y: 1.4031754}
   m_EdgeRadius: 0
---- !u!114 &5695476165340169484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5695476165340169474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9488271c08bcf134dbdefce28f3e5549, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  currentState: 0
-  maxHealth: {fileID: 11400000, guid: 8afc087a6fd48e34086408c07c3d2b2e, type: 2}
-  enemyName: SSkeleton
-  baseAttack: 1
-  moveSpeed: 2
-  deathEffect: {fileID: 6419602150728809234, guid: ebea35d7e75be4e4f848ef72dee7084c, type: 3}
-  myRigidbody: {fileID: 0}
-  target: {fileID: 0}
-  chaseRadius: 8
-  attackRadius: 1.5
-  homePosition: {fileID: 0}
-  anim: {fileID: 0}
 --- !u!61 &5695476165340169485
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -219,3 +196,131 @@ MonoBehaviour:
   thrust: 7
   knockTime: 0.2
   damageNumber: {fileID: 11400000, guid: b61b9c5c20daccd4f803b0dbb2b57a14, type: 2}
+--- !u!114 &1424912907720449263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5695476165340169474}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd9ffe45db58d77419192b9f33749e09, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 0
+  maxHealth: {fileID: 11400000, guid: 8afc087a6fd48e34086408c07c3d2b2e, type: 2}
+  enemyName: PSkeleton
+  baseAttack: 1
+  moveSpeed: 2.5
+  deathEffect: {fileID: 6419602150728809234, guid: ebea35d7e75be4e4f848ef72dee7084c, type: 3}
+  roomSignal: {fileID: 11400000, guid: 99501db200216c640988d62f9916bac0, type: 2}
+  enemySound: {fileID: 8300000, guid: 3b983979142980741a9363076fc49446, type: 3}
+  myRigidbody: {fileID: 0}
+  boundary: {fileID: 0}
+  target: {fileID: 0}
+  chaseRadius: 8
+  attackRadius: 1.5
+  anim: {fileID: 0}
+  path:
+  - {fileID: 0}
+  - {fileID: 0}
+  currentPoint: 0
+  currentGoal: {fileID: 0}
+  roundingDistance: 0
+--- !u!82 &1694091995225204569
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5695476165340169474}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

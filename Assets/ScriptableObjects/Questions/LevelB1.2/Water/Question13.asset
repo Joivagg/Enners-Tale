@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question13
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If your father's car breaks down, _____
+  option1: he goes to the mechanic
+  option2: he has a barbecue
+  option3: he drives it fast
+  option4: he leaves home early
+  selectCorrect: 0

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question9
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: _____ it _____ raining _____ you arrived?
+  option1: Has / been / since
+  option2: Have / been / for
+  option3: Have / be / since
+  option4: Has / be / for
+  selectCorrect: 0

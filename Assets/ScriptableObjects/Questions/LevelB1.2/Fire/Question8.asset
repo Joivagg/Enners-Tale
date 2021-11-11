@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question8
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If you _____ by plane it _____ two hours
+  option1: go / will take
+  option2: are going / will take
+  option3: will go / take
+  option4: won't go / don't take
+  selectCorrect: 0

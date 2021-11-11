@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question20
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: This is _____ phone in the store. It's really cheap
+  option1: the least expensive
+  option2: the most expensive
+  option3: more expensive than
+  option4: less expensive than
+  selectCorrect: 0

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question20
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: He couldn't believe it. His father _____ him a new laptop as a birthday
+    gift
+  option1: had bought
+  option2: has bought
+  option3: was bought
+  option4: bought
+  selectCorrect: 0

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question15
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: We _____ football if the weather were good
+  option1: would be able to play
+  option2: would were able to play
+  option3: were able to play
+  option4: will be able to play
+  selectCorrect: 0

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question18
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If you go to the North Pole, _____
+  option1: you see a lot of snow and ice
+  option2: you lose a lot of weight
+  option3: you feel very hot and dry
+  option4: you grow fruit and vegetables
+  selectCorrect: 0

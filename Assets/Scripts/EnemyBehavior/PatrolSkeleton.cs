@@ -16,6 +16,7 @@ public class PatrolSkeleton : Skeleton
         anim = GetComponent<Animator>();
         target = GameObject.FindWithTag("Enner").transform;
         anim.SetBool("wakeUp", true);
+        soundSource = GetComponent<AudioSource>();
     }
 
     protected override void OnEnable()

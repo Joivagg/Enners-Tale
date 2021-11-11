@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question10
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: I will leave early _____
+  option1: if I finish my work
+  option2: if I will finish my work
+  option3: if I am finish my work
+  option4: if I won't finish my work
+  selectCorrect: 0

@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question3
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If I _____ you, I _____ that man
+  option1: were / would help
+  option2: am / will help
+  option3: weren't / don't help
+  option4: were / helped
+  selectCorrect: 0

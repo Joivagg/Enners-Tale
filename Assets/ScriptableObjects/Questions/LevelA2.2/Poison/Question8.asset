@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question8
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: It's wet and windy outside today.You _____ go out without an umbrella
+    (-)
+  option1: shouldn't
+  option2: won't
+  option3: don't have to
+  option4: couldn't
+  selectCorrect: 0

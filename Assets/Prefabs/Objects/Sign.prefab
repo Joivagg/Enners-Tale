@@ -152,5 +152,7 @@ MonoBehaviour:
   context: {fileID: 11400000, guid: c91b9606e8c231b42b38d8ab9a3c35b6, type: 2}
   playerInRange: 0
   dialogBox: {fileID: 0}
+  uiPanel: {fileID: 0}
   dialogText: {fileID: 0}
-  dialog: 'This mark has been here since this town was founded. '
+  dialog: The next room has some healing kits for the wounded travelers
+  dialogButton: {fileID: 0}

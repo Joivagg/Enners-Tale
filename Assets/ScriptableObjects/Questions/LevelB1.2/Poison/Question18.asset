@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question18
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: If my father _____ me a ticket, I _____ to the cinema
+  option1: didn't buy / wouldn't go
+  option2: weren't buy / won't go
+  option3: wouldn't buy / didn't go
+  option4: wasn't buy / won't go
+  selectCorrect: 0

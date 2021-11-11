@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question18
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Clara looked out the window. The pavement was wet. It _____ at night
+  option1: had rained
+  option2: have rained
+  option3: has rained
+  option4: have been rained
+  selectCorrect: 0

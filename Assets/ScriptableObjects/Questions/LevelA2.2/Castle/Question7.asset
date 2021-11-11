@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question7
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: I am looking for my pen. I _____ it
+  option1: have lost
+  option2: lost
+  option3: did lost
+  option4: was lost
+  selectCorrect: 0

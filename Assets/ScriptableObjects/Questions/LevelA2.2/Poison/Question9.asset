@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question9
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: _____ we leave now or do you want to wait? (?)
+  option1: Shall
+  option2: Could
+  option3: Did
+  option4: May
+  selectCorrect: 0

@@ -26,4 +26,58 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/CastleDungeonL1.unity
     guid: bd8720021534dfe47887ac580b4d2962
+  - enabled: 1
+    path: Assets/Scenes/OverworldL2.unity
+    guid: 1c2b2e63c06314540b58a370916328d1
+  - enabled: 1
+    path: Assets/Scenes/AcademyRuinsL2.unity
+    guid: c68f6bf70da804640a637aececa133d8
+  - enabled: 1
+    path: Assets/Scenes/WaterDungeonL2.unity
+    guid: 5d3e33d724126924b961fee2812d058f
+  - enabled: 1
+    path: Assets/Scenes/FireDungeonL2.unity
+    guid: b9eacb1ef5dd72844889ce809cd28e61
+  - enabled: 1
+    path: Assets/Scenes/PoisonDungeonL2.unity
+    guid: b78a7708ff969b24c9f0fa9a35bc311c
+  - enabled: 1
+    path: Assets/Scenes/CastleDungeonL2.unity
+    guid: bb31bd672b18a9845b9c2d68fdb5dfcc
+  - enabled: 1
+    path: Assets/Scenes/OverworldL3.unity
+    guid: ca1f153262435284e99ab56b3fc0667a
+  - enabled: 1
+    path: Assets/Scenes/AcademyRuinsL3.unity
+    guid: d8c14c85c41506040bd50affee31f6a3
+  - enabled: 1
+    path: Assets/Scenes/WaterDungeonL3.unity
+    guid: efd4d06da042926499d34a809dd8f1a6
+  - enabled: 1
+    path: Assets/Scenes/FireDungeonL3.unity
+    guid: bd946ede050f1e34cb90d6719ead0425
+  - enabled: 1
+    path: Assets/Scenes/PoisonDungeonL3.unity
+    guid: 52911ddcb4beb6e43a0d267bccfd5b25
+  - enabled: 1
+    path: Assets/Scenes/CastleDungeonL3.unity
+    guid: fdad6f84322c1af41aba900b7a491c2d
+  - enabled: 1
+    path: Assets/Scenes/OverworldL4.unity
+    guid: 8abb480ce42c2f0429e69aaf493143fd
+  - enabled: 1
+    path: Assets/Scenes/AcademyRuinsL4.unity
+    guid: 5809ba3a963c3154495bf0ef78c21683
+  - enabled: 1
+    path: Assets/Scenes/WaterDungeonL4.unity
+    guid: 4823ee528a0bd5b41996ee6ec028d7a5
+  - enabled: 1
+    path: Assets/Scenes/FireDungeonL4.unity
+    guid: a5e21107fe410f54480a46f47181634f
+  - enabled: 1
+    path: Assets/Scenes/PoisonDungeonL4.unity
+    guid: 97a53af0aac13564cb8c292f2bad97a5
+  - enabled: 1
+    path: Assets/Scenes/CastleDungeonL4.unity
+    guid: 374bd0b52dbb3bb4f8896bfc9e390733
   m_configObjects: {}

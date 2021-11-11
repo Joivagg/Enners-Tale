@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question8
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: They should _____ their umbrellas with them. It's _____ outside
+  option1: take / raining
+  option2: taking / raining
+  option3: take / rain
+  option4: taking / rain
+  selectCorrect: 0

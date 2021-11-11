@@ -29,10 +29,24 @@ public class Enemy : MonoBehaviour
     [Header("Death Signals")]
     public Signals roomSignal;
 
+    [Header("Sound Config")]
+    [SerializeField]
+    protected AudioClip enemySound;
+    protected AudioSource soundSource;
+
     private void Awake()
     {
         health = maxHealth.initialValue;
         homePosition = transform.position;
+        soundSource = GetComponent<AudioSource>();
+        if (soundSource == null)
+        {
+            Debug.LogError("The AudioSource in the player is NULL!");
+        }
+        else
+        {
+            soundSource.clip = enemySound;
+        }
     }
 
     protected virtual void OnEnable()
@@ -64,6 +78,7 @@ public class Enemy : MonoBehaviour
     public void Knock(Rigidbody2D myRigidbody, float knockTime, float damage)
     {
         StartCoroutine(KnockCO(myRigidbody, knockTime));
+        soundSource.Play();
         TakeDamage(damage);
     }
     private IEnumerator KnockCO(Rigidbody2D myRigidbody, float knockTime)

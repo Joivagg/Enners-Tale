@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question5
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: Jose and Anna _____ hands (+)
+  option1: are shaking their
+  option2: is shaking their
+  option3: are shaking them
+  option4: is shaking them
+  selectCorrect: 0

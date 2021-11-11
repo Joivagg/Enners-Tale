@@ -6,13 +6,10 @@ using UnityEngine.UI;
 public class DialogInteract : Interactable
 {
     public GameObject dialogBox;
+    public GameObject uiPanel;
     public Text dialogText;
     public string dialog;
-    
-    void Start()
-    {
-        
-    }
+    public GameObject container;
 
     public virtual void Update()
     {
@@ -21,15 +18,24 @@ public class DialogInteract : Interactable
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                uiPanel.SetActive(true);
+                container.GetComponent<PauseMenu>().enabled = true;
                 Time.timeScale = 1f;
             }
             else
             {
                 dialogBox.SetActive(true);
+                uiPanel.SetActive(false);
                 dialogText.text = dialog;
+                container.GetComponent<PauseMenu>().enabled = false;
                 Time.timeScale = 0f;
             }
         }
+    }
+
+    protected override void OnTriggerEnter2D(Collider2D other)
+    {
+        base.OnTriggerEnter2D(other);
     }
 
     protected override void OnTriggerExit2D(Collider2D other)
@@ -37,7 +43,6 @@ public class DialogInteract : Interactable
         if (other.CompareTag("Enner") && !other.isTrigger)
         {
             base.OnTriggerExit2D(other);
-            dialogBox.SetActive(false);
         }
     }
 
@@ -48,11 +53,15 @@ public class DialogInteract : Interactable
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                uiPanel.SetActive(true);
+                container.GetComponent<PauseMenu>().enabled = true;
                 Time.timeScale = 1f;
             }
             else
             {
                 dialogBox.SetActive(true);
+                uiPanel.SetActive(false);
+                container.GetComponent<PauseMenu>().enabled = false;
                 dialogText.text = dialog;
                 Time.timeScale = 0f;
             }
@@ -66,11 +75,15 @@ public class DialogInteract : Interactable
             if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
+                uiPanel.SetActive(true);
+                container.GetComponent<PauseMenu>().enabled = true;
                 Time.timeScale = 1f;
             }
             else
             {
                 dialogBox.SetActive(true);
+                uiPanel.SetActive(false);
+                container.GetComponent<PauseMenu>().enabled = false;
                 dialogText.text = dialog;
                 Time.timeScale = 0f;
             }

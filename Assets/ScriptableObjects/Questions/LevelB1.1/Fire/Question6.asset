@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 802bc020fd747da4dab3e96de852f939, type: 3}
   m_Name: Question6
   m_EditorClassIdentifier: 
-  question: 
-  goodOption: 
-  badOption1: 
-  badOption2: 
-  badOption3: 
+  question: While I _____ in my room, my sister _____ home
+  option1: was studying / left
+  option2: studied / left
+  option3: study / was leaving
+  option4: have studied / was leaving
+  selectCorrect: 0
