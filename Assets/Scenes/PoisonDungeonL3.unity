@@ -1207,6 +1207,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 106751259}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1230334907}
@@ -1481,6 +1485,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 106751259}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -2199,6 +2207,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 106751259}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -4041,6 +4053,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 106751259}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -5951,6 +5967,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 106751259}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1230334907}
@@ -7809,6 +7829,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 106751259}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1230334907}
@@ -8788,6 +8812,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 106751259}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -10372,10 +10400,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5127677074612500382, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5405171790675597359, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6374345398059858501, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6199d44b957a4ba45a1b57f1bd890b03, type: 3}
     - target: {fileID: 9122606925484688337, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -10472,6 +10508,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122606926445137762, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9122606926445137767, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: player
       value: 
@@ -10482,6 +10522,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+--- !u!1 &1740447730 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5127677074612500382, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+  m_PrefabInstance: {fileID: 1740447729}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1744478447
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12196,6 +12241,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 106751259}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1230334907}
@@ -12930,6 +12979,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 106751259}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1740447730}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1230334907}
@@ -13076,7 +13129,7 @@ PrefabInstance:
     - target: {fileID: 1473158689479599102, guid: f743cbf5d7b3bc74e97bb85c369c6a63, type: 3}
       propertyPath: startingPosition
       value: 
-      objectReference: {fileID: 11400000, guid: a113b9d6ffed3f9478714e9b1c31b34a, type: 2}
+      objectReference: {fileID: 11400000, guid: 81ac0e04156c0e341a64d2a9c494a474, type: 2}
     - target: {fileID: 1473158689479599102, guid: f743cbf5d7b3bc74e97bb85c369c6a63, type: 3}
       propertyPath: runSpeedHorizontal
       value: 3

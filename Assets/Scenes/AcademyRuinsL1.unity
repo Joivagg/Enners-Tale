@@ -671,6 +671,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1634122300}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1230041697}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1863013321}
@@ -1931,6 +1935,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 460921039}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1230041697}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1863013321}
@@ -2552,6 +2560,10 @@ PrefabInstance:
       propertyPath: doorSprite
       value: 
       objectReference: {fileID: 504698494}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1230041697}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -7332,6 +7344,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1230041697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5127677074612500382, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+  m_PrefabInstance: {fileID: 9122606924515457675}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1242025412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7427,6 +7444,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 1634122300}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1230041697}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -8890,6 +8911,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 1634122300}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1230041697}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -11065,6 +11090,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1634122300}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1230041697}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1863013321}
@@ -11581,6 +11610,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 1634122300}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1230041697}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -13167,6 +13200,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1634122300}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1230041697}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1863013321}
@@ -13306,6 +13343,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1574616782}
+    - target: {fileID: 1304694297, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1473229723, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -13342,6 +13383,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1059725345}
+    - target: {fileID: 9122606925484688337, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9122606926445137760, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -13425,6 +13470,10 @@ PrefabInstance:
     - target: {fileID: 9122606926445137760, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9122606926445137762, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9122606926445137767, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: player

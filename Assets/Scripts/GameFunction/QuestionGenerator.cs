@@ -99,28 +99,6 @@ public class QuestionGenerator : MonoBehaviour
         }
     }
 
-    /*private void QuestionRandomizerV2()
-    {
-        for (int oldPosition = 0; oldPosition < selectedQuestions.Count; oldPosition++)
-        {
-            Question targetQuestion = Instantiate(selectedQuestions[oldPosition]);
-            int newPosition = Random.Range(0, selectedQuestions.Count);
-            selectedQuestions[oldPosition] = selectedQuestions[newPosition];
-            selectedQuestions[newPosition] = targetQuestion;
-        }
-    }
-
-    private void QuestionRandomizerV3()
-    {
-        for (int oldPosition = 0; oldPosition < dungeonQuestions.Count; oldPosition++)
-        {
-            Question targetQuestion = Instantiate(dungeonQuestions[oldPosition]);
-            int newPosition = Random.Range(0, dungeonQuestions.Count);
-            dungeonQuestions[oldPosition] = dungeonQuestions[newPosition];
-            dungeonQuestions[newPosition] = targetQuestion;
-        }
-    }*/
-
     private void SelectQuestions()
     {
         int questionsLeftToSelect = questionsAmount;

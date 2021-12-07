@@ -33,6 +33,8 @@ public class Plate : MonoBehaviour
     [SerializeField]
     private GameObject uiPanel;
     [SerializeField]
+    private GameObject introPanel;
+    [SerializeField]
     private GameObject questionPanel;
     [SerializeField]
     private GameObject retryPanel;
@@ -249,16 +251,33 @@ public class Plate : MonoBehaviour
         isQuestionPanelActive = !isQuestionPanelActive;
         if (isQuestionPanelActive)
         {
-            questionPanel.SetActive(true);
             uiPanel.SetActive(false);
             container.GetComponent<PauseMenu>().enabled = false;
-            Time.timeScale = 0f;
+            introPanel.SetActive(true);
+            optionOne.GetComponent<Button>().interactable = true;
+            optionTwo.GetComponent<Button>().interactable = true;
+            optionThree.GetComponent<Button>().interactable = true;
+            optionFour.GetComponent<Button>().interactable = true;
+            Time.timeScale = 0.01f;
+            StartCoroutine(PreWaitCO(0.03f));
         }
         else
         {
-            Time.timeScale = 0.1f;
-            StartCoroutine(WaitCO(0.3f));
+            optionOne.GetComponent<Button>().interactable = false;
+            optionTwo.GetComponent<Button>().interactable = false;
+            optionThree.GetComponent<Button>().interactable = false;
+            optionFour.GetComponent<Button>().interactable = false;
+            Time.timeScale = 0.01f;
+            StartCoroutine(WaitCO(0.03f));
         }
+    }
+
+    private IEnumerator PreWaitCO(float waitTime)
+    {
+        yield return new WaitForSeconds(waitTime);
+        introPanel.SetActive(false);
+        questionPanel.SetActive(true);
+        Time.timeScale = 0f;
     }
 
     private IEnumerator WaitCO(float waitTime)

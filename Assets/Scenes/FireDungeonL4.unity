@@ -261,6 +261,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1761814821}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1583115733}
@@ -538,6 +542,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 1761814821}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -1168,6 +1176,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1761814821}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1583115733}
@@ -1374,6 +1386,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 1761814821}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -8859,6 +8875,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1761814821}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1583115733}
@@ -9446,6 +9466,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 1761814821}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -10277,6 +10301,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 1761814821}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
@@ -11591,10 +11619,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[7].m_MethodName
       value: InteractButton
       objectReference: {fileID: 0}
+    - target: {fileID: 5127677074612500382, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5405171790675597359, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6374345398059858501, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bd8263236d1cdf44887664cd4426af99, type: 3}
     - target: {fileID: 9122606924402076512, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -11699,6 +11735,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9122606926445137762, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_ScreenMatchMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9122606926445137767, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: player
       value: 
@@ -11706,6 +11746,18 @@ PrefabInstance:
     - target: {fileID: 9122606926445137772, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175521305057816681, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175521305057816681, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_Color.g
+      value: 0.99215686
+      objectReference: {fileID: 0}
+    - target: {fileID: 9175521305057816681, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+      propertyPath: m_Color.r
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
@@ -11733,6 +11785,11 @@ MonoBehaviour:
 --- !u!1 &1705921000 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9122606926445137772, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
+  m_PrefabInstance: {fileID: 1705920996}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1705921001 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5127677074612500382, guid: d6fd72bf46d946d499a352cc7b8f4638, type: 3}
   m_PrefabInstance: {fileID: 1705920996}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1713509986
@@ -13933,6 +13990,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1761814821}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
       objectReference: {fileID: 1583115733}
@@ -15709,6 +15770,10 @@ PrefabInstance:
       propertyPath: optionTwo
       value: 
       objectReference: {fileID: 1761814821}
+    - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
+      propertyPath: introPanel
+      value: 
+      objectReference: {fileID: 1705921001}
     - target: {fileID: 8938247703542956185, guid: 30d64bc79aaa9fe4e896e7d5d36fe3d4, type: 3}
       propertyPath: optionFour
       value: 
